@@ -1,0 +1,214 @@
+
+/* 第一屏-------------------------------------------------------------------------------------------------------------- */
+.section1>div {
+    background: url('../images/01/products.png') no-repeat center,
+    url('../images/01/bg.png') no-repeat bottom;
+
+}
+
+.section1 .sofa {
+    position: absolute;
+    left: 50%;
+    margin-left: -180px;
+    bottom: 330px;
+    animation: up 0.5s alternate  infinite;
+}
+
+.section1 .ball{
+    position: absolute;
+    left: 50%;
+    margin-left: 150px;
+    bottom: 580px;
+    animation: up 0.8s alternate infinite;
+}
+
+@keyframes up{
+    from{}
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+/* 第二屏------------------------------------------------------------------------------------------------------------------ */
+.section2>div {
+    background: url('../images/02/bg.png') no-repeat center bottom;
+}
+
+
+.section2 .search{
+    position: absolute;
+    left: 50%;
+    margin-left: 450px;
+    bottom: 300px;
+   
+}
+
+.section2 .sofas {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 210px;
+    width: 0;
+}
+
+
+/* 第三屏--------------------------------------------------------------------------------------------------------------- */
+.section3>div{
+    background: url('../images/03/bg.png') no-repeat center 
+}
+
+.section3 .sofa {
+    position: absolute;
+    left: 50%;
+    margin-left: -240px;
+    bottom: 50%;
+    margin-bottom: -55px;
+}
+
+.section3 .color{
+    width: 296px;
+    height: 131px;
+    background: url('../images/03/color01.gif') no-repeat  center;
+
+    position: absolute;
+    left: 50%;
+    margin-left: 40px;
+}
+
+.section3 .add{
+    width: 218px;
+    height: 58px;
+    background: url('../images/03/add01.gif') no-repeat center;
+
+    position: absolute;
+    left: 50%;
+    margin-left: 40px;
+    bottom: 170px;
+}
+
+.section3.animation  .color{
+    background: url('../images/03/color02.gif') no-repeat center;
+    transition: all 1.5s;
+}
+
+.section3.animation .add{
+    background: url('../images/03/add02.gif') no-repeat center;
+    transition: all 2s;
+}
+
+/* 第四屏-------------------------------------------------------------------------------------------------------------*/
+.section4>div{
+    background: url('../images/04/bg.png') no-repeat center bottom;
+}
+
+.section4 .cloud {
+    position: absolute;
+    left: 50%;
+    margin-left: 500px;
+    top: 10px;
+    animation: cloud 30s infinite;
+}
+
+@keyframes cloud {
+    from{}
+    to{
+        transform:translateX(-2000px);
+    }
+}
+
+.section4 .keyboard {
+    position: absolute;
+    background: url('../images/04/keyboard.png') no-repeat;
+    width: 283px;
+    height: 270px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 180px;
+    opacity: 0;
+}
+
+.section4 .keyboard img {
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 53px;
+}
+
+.section4 .words {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 500px;
+}
+
+.section4 .carBox{
+    left: 50%;
+    transform: translate(-50%);
+    width: 407px;
+    height: 346px;
+    position: absolute;
+    bottom:50px;
+}
+
+.section4 .sofa{
+
+    position: absolute;
+    left:140px;
+    top:-40px;
+}
+
+.section4 .car{
+
+    position: absolute;
+}
+
+/* 第五屏--------------------------------------------------------------------------------------------------------------- */
+.section5>div {
+    background: url('../images/05/bg.png') no-repeat center;
+}
+
+.section5 .cardBox {
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+    bottom: 250px;
+    width: 358px;
+    height: 221px;   
+}
+
+.section5 .card {
+    position: absolute;
+}
+
+.section5 .bill{
+    position: absolute;
+    left: 75px;
+}
+
+.section5 .mouse{
+    width: 200px;
+    height: 400px;
+    background: url('../images/05/mouse01.png') no-repeat left bottom;
+    position: absolute;
+    left: 50%;
+    margin-left: 280px;
+    bottom: 300px;
+}
+
+.section5 .hand{
+    position: absolute;
+    bottom: -270px;
+    left: -30px;
+}
+
+.section5 .words {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20px;
+}
+
+.section5.animate .mouse {
+    transition: all 1s ;
+    background: url('../images/05/mouse02.png')no-repeat left bottom;
+}
+
